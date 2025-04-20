@@ -12,8 +12,8 @@ This project is meant to be a stablecoin where users can deposit WETH and WBTC i
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [foundry](https://getfoundry.sh/)
   - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
-  -[openzeppelin] (https://github.com/OpenZeppelin/openzeppelin-contracts)  can be done by `forge install OpenZeppelin/openzeppelin-contracts --no-commit`
--[chainlink] (https://github.com/smartcontractkit/chainlink-brownie-contracts) can be done by `forge install smartcontractkit/chainlink-brownie-contracts --no-commit`
+  - [openzeppelin] (https://github.com/OpenZeppelin/openzeppelin-contracts)  can be done by `forge install openzeppelin/openzeppelin-contracts@v4.8.3 --no-commit`
+- [chainlink] (https://github.com/smartcontractkit/chainlink-brownie-contracts) can be done by `forge install smartcontractkit/chainlink-brownie-contracts --no-commit`
 
 ## Quickstart
 

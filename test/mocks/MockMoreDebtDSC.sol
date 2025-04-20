@@ -36,7 +36,7 @@ contract MockMoreDebtDSC is ERC20Burnable, Ownable {
 
     address mockAggregator;
 
-    constructor(address _mockAggregator) ERC20("DecentralizedStableCoin", "DSC") Ownable(msg.sender) {
+    constructor(address _mockAggregator) ERC20("DecentralizedStableCoin", "DSC") Ownable() {
         mockAggregator = _mockAggregator;
     }
 
